@@ -558,7 +558,7 @@ const App = () => {
             <p>My toolkit includes React, Node.js, and Firebase. I’m also actively learning Python and exploring AI-related domains. I focus on writing clean, performance-conscious code that solves real problems.</p>
             <div style={{ display: 'flex', gap: '15px', marginTop: '20px' }}>
               <a href="https://github.com/Arnav-Bhoite-1645" target="_blank" className="theme-toggle"><Github /></a>
-              <a href="#" className="theme-toggle"><Linkedin /></a>
+              <a href="https://www.linkedin.com/in/arnav-bhoite-96224a326" target="_blank" rel="noopener noreferrer" className="theme-toggle"><Linkedin /></a>
             </div>
           </div>
         </div>
