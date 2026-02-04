@@ -345,6 +345,14 @@ const App = () => {
           font-size: 6rem;
           border: 1px solid var(--border);
           box-shadow: var(--shadow);
+          overflow: hidden;
+        }
+
+        .about-img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          display: block;
         }
 
         .about-text h3 { font-size: 1.8rem; margin-bottom: 1rem; }
@@ -541,7 +549,9 @@ const App = () => {
         <h2 className="section-title">About Me</h2>
         <p className="section-subtitle">Student, Developer, and Continuous Learner</p>
         <div className="about-grid">
-          <div className="about-img-box">👨‍💻</div>
+          <div className="about-img-box">
+            <img src="/profile.jpg" alt="Arnav Bhoite" className="about-img" />
+          </div>
           <div className="about-text">
             <h3>Bridging Code and Performance</h3>
             <p>I’m a third-year B.E. Computer Engineering student at RMD Sinhgad College of Engineering. Currently, I’m working as a Web Development Intern building real-world features.</p>
