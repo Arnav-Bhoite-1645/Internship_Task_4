@@ -639,11 +639,11 @@ const App = () => {
           <form onSubmit={handleSubmit}>
             <div className="form-group">
               <label>Full Name</label>
-              <input type="text" placeholder="John Doe" required />
+              <input type="text" placeholder="Sidhant Patil" required />
             </div>
             <div className="form-group">
               <label>Email Address</label>
-              <input type="email" placeholder="john@example.com" required />
+              <input type="email" placeholder="sidhant@example.com" required />
             </div>
             <div className="form-group">
               <label>Your Message</label>
