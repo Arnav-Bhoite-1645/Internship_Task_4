@@ -80,23 +80,38 @@ const App = () => {
       title: "Sparkflow 🧩",
       description: "Web-based task management application developed during my internship to organize, track, and update assigned tasks in an efficient workflow.",
       tech: ["React", "JavaScript", "Firebase", "Git"],
-      link: "#",
+      link: "https://github.com/Arnav-Bhoite-1645/SHRISTECH_Task_1.git",
       image: "⚡"
     },
     {
       title: "ContactVault 📇",
       description: "Contact management system allowing users to store and manage contact information using a clean frontend connected to cloud storage.",
       tech: ["HTML", "CSS", "JS", "Firebase", "Git"],
-      link: "#",
+      link: "https://github.com/Arnav-Bhoite-1645/SHRISTECH_Task_2.git",
       image: "🔒"
     },
     {
+      title: "Habitox 📅",
+      description: "Habitox helps track daily habits, visualize streaks, and maintain consistency with simple tracking and insights.",
+      tech: ["React", "Firebase", "Chart.js"],
+      link: "https://github.com/Arnav-Bhoite-1645/SHRISTECH_Task_4.git",
+      image: "📈"
+    },
+    {
+      title: "Personal Portfolio 🌐",
+      description: "A personal portfolio website showcasing projects, skills, and contact information, built with performance and accessibility in mind.",
+      tech: ["React", "Vite", "CSS"],
+      link: "https://github.com/Arnav-Bhoite-1645/SHRISTECH_Task_3.git",
+      image: "💼"
+    },
+        {
       title: "BlogFlow 📝",
       description: "Responsive blogging web application created during my internship to display and manage blog content with reusable UI components.",
       tech: ["React", "JavaScript", "Firebase", "Git"],
-      link: "#",
+      link: "https://github.com/Arnav-Bhoite-1645/SHRISTECH_Project.git",
       image: "✍️"
     }
+    ,
   ];
 
   const handleDownloadResume = () => {
